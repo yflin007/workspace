@@ -1,0 +1,117 @@
+
+
+/********产品详情****************/
+#wrapper-detail{width:100%;overflow:hidden;}
+#wrapper-detail .product-detail{width:1160px;margin:0 auto;overflow:hidden;margin-top:40px;}
+#wrapper-detail .product-detail .product-detail-img{width:400px;float:left;position:relative;}
+#wrapper-detail .product-detail  .product-detail-price{width:680px;float:right;height: 400px;}
+#smallImg,#smallImg img{width:400px;height:400px;}
+#smallImg{position:relative;}
+#smallArea{width:200px;height:200px;position:absolute;background: rgba(200,111,222,0.3);top:0;left:100px;display: none;}
+#bigArea{display:none;width:400px;height:400px;position:absolute;overflow:hidden;top:0px;left:420px; z-index:100;border:1px solid #dcdcdc;}
+#bigImg{width:800px;height:800px;position:absolute;top:0;left:0;}
+#wrapper-detail .product-list{position: relative;width: 350px;height: 69px;overflow: hidden;padding-top: 10px;margin: 0 auto;padding: 0 20px;}
+#wrapper-detail .product-list span {display:block;width:20px;height:69px;position: absolute;line-height:69px;color: #ddd;cursor: default;background-color: #f9f9f9;font-size:30px;}
+#wrapper-detail .product-list  #next{left:0;}
+#wrapper-detail .product-list ul{position:absolute;top:2px;left:20px;width:200%;}
+#wrapper-detail .product-list ul li{float:left;width: 62px;height: 62px; float: left;overflow: hidden;margin-right: 10px;border: 2px solid #fff;cursor: pointer;}
+#wrapper-detail .product-list ul li:hover img{transform: scale(1.2);transition:0.5s;}
+#wrapper-detail .product-list ul li img{width: 62px;height:62px;transform: scale(1);}
+#wrapper-detail .product-list  #prev{right: 0;}
+.product-detail-price h2{    font-size: 24px;
+    font-weight: normal;
+    color: #000000;
+    padding: 0 0 6px 0;
+    font-family: "microsoft yahei","宋体";margin-bottom:20px;}
+   .product-detail-price ul li{margin-bottom:25px;}
+ 
+ .product-detail-price ul li  .detail_item{width: 80px;text-align:left;float:left;}
+
+ .product-detail-price ul li .pro_sales_price{color:red;font-weight:bold;font-size:32px;}
+.pro_original_price{color: red;margin:0 24px ;}
+.hl_red{color: red;}
+.product-detail-price ul li p a{padding:5px 15px;font-style: normal;border:1px solid #DCDCCD;margin-right:13px;font-size: 12px;position:relative;}
+.product-detail-price ul li p a:hover {border:1px solid red; }
+.product-detail-price ul li p .active{border:1px solid red;}
+.product-detail-price ul li p a i{display:none;width:15px;height:15px;background:url(../images/search.ele.png) no-repeat 0 -462px;position: absolute;right:0;bottom:0;}
+
+
+
+.detail_count{float:left;}
+.product-detail-price ul li:nth-of-type(4) {overflow: hidden;}
+.detail_count input{float: left;}
+.detail_count input[type=text]{width: 51px;
+    height:16px;
+    line-height: 16px;
+    border: 0;
+    background: none;
+    font-size: 12px;
+    color: #E31436;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-left:none;
+    border-right:none ;}
+.detail_count input[type=button]{border: 1px solid #ddd;background:#eee;}
+.con-cart{background-color:rgb(231,61,31) !important;background:url(../images/icon-cart.png) 40px center no-repeat;font-size: 25px;color:red;margin-right: 24px;border-radius:5px;border:1px solid red ;color: #fff;padding:10px 0;padding-left: 70px;padding-right:40px;outline: none;}
+.jsut-cart{padding:10px 55px;border:1px solid red;    background-color: #FEF1EF;
+    color: #E73D1F;font-size: 24px;border-radius:5px;outline: none;}
+ .product-detail-img p a{float: right;font-size:12px;color:#333333;}
+ .product-detail-img p a img{position: relative;top:2px;}
+ .product-detail-img p a:nth-of-type(1)  img{position: relative;top:4px;}
+  .product-detail-img p span{font-size:12px;}
+.product-detail-img p{margin-top: 20px;height: 30px;color:#333333;}
+
+#wrapper-shade{display:none;}
+#wrapper-shade .shade{width:100%;height:100%;background:#000;filter: alpha(opacity=40);opacity: 0.4;position:fixed;top:0;}
+#wrapper-shade p{width:420px;height:125px;line-height:125px;background:#262626;text-align:center;position:fixed;top:35%;left:50%;margin-left:-210px;color:#fff;}
+#wrapper-shade p i{display:block;width:19px;height:19px;background:url(../images/tishic.png) no-repeat;position:absolute;top:-4px;right:-4px;transition:all linear 0.5s;transform: rotate(0deg);}
+#wrapper-shade p i:hover{transition:all linear 0.2s;transform:rotate(180deg);}
+
+#wrapper-shade2{display:none;}
+#wrapper-shade2 .shade{width:100%;height:100%;background:#000;filter: alpha(opacity=40);opacity: 0.4;position:fixed;top:0;}
+#wrapper-shade2 .shade2{width:300px;height:200px;border:4px solid ;background: #fff;border: 4px solid #ccc;box-shadow: 1px 1px 0px #000;
+    -webkit-box-shadow: 10px 10px 5px #000;
+    -moz-box-shadow: 10px 10px 5px #000;position: fixed;top:50%;margin-top:-100px;left:50%;margin-left:-150px;text-align:center;}
+#wrapper-shade2 .shade2 div{text-align:center;padding:30px  0;}
+#wrapper-shade2 .shade2 h2{font-size:20px;text-align:center;margin-bottom:60px;}
+#wrapper-shade2 .shade2 a{color:#333;margin-right:10px;}
+/*******最近浏览和评论*************/
+#wrapper-content {width:1160px;margin:0 auto;overflow: hidden;}
+#wrapper-content .browse{margin-top: 0px;
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 185px;float:left;margin-top: 5px;}
+#wrapper-content .browse h2{line-height: 40px;border-bottom:1px solid #ccc;text-align: left;padding-left: 24px;}
+#wrapper-content .browse a{display:block;margin-bottom: 10px;}
+#wrapper-content .browse a img{width: 160px;height: 160px;}
+#wrapper-content .browse a strong{    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #323232;}
+    
+#wrapper-content  .discuss{width:880px;float:right;margin-right: 5px;margin-top: 5px;margin-bottom:5px;}  
+#wrapper-content  .discuss .title{width:880px;background-color: #F9F9F9;
+    border: 1px solid #DDD;
+    border-top: 2px solid #ccc;
+    height: 39px;
+    line-height: 39px;}
+#wrapper-content  .discuss .title li{float: left;}
+ #wrapper-content  .discuss .title li a{
+    display: block;
+    padding: 0 34px;
+    font-size: 16px;
+    color: #666;
+    position: relative;
+    z-index: 2;	
+ }   
+  #wrapper-content  .discuss  .active{ background-color: #fff;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-top: 2px solid red;
+    margin-top: -4px;
+    height: 42px;
+   }
+   #wrapper-content  .discuss  .discuss-view1{border:1px solid #ddd;}
+    #wrapper-content  .discuss  .discuss-view2{display: none;}
+  #wrapper-content  .discuss  .discuss-view1 img{width: 100%;}
+     #wrapper-content  .discuss  .discuss-view2 img{margin-left:-7px; width: 101%;}

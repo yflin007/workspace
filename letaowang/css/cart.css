@@ -1,0 +1,58 @@
+  
+/*********购物车部分****************/
+#wrapper-cart{width:1200px;margin:0 auto;overflow:hidden;padding-bottom:50px;}
+#wrapper-cart  ul{padding-top:40px;padding-bottom:65px;margin-top:16px;}
+#wrapper-cart ul li{width:400px;height:6px;float:left;text-align:center;background:#cccccc ;}
+#wrapper-cart ul li span{display:block;width:32px;height:32px;border-radius:50%;background:#cccccc;color:#fff;line-height:32px;margin:0 auto;margin-top:-16px;}
+#wrapper-cart ul li strong{display:block;margin-top:15px;color:#ccc;}
+#wrapper-cart ul  .status{background-color:#E73D1F;}
+#wrapper-cart ul li .status1{color:#E73D1F;}
+#wrapper-cart .p1{width:100%;height:42px;background:url(../images/icon_cart2.png) 20px  center no-repeat;background-color:#fff6e6;border-top:2px solid #f2972c;padding-left:45px;line-height:42px;margin-top:50px;}
+.shoppingOrder_name{padding:0  20px;}
+.shoppingOrder_all{float:left;}
+.shoppingOrder{padding:0 20px;border:1px solid #ccc;margin-top:16px;}
+.shoppingOrder_img  img{width:100px;height:100px;}
+.shoppingOrder_img {width:160px;height:160px;float:left;}
+.shoppingOrder_chk{width:30px;float:left;}
+ .shoppingOrder_about{width:180px;
+    float: left;
+    margin-left: 15px;
+    display: inline;
+    font-size: 14px;
+    color: #666;
+    margin-top: 52px;}
+.tcount input[type=button]{width:20px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    float:left;
+    margin-right: -1px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    background:#fff;
+    cursor: pointer;}
+.tcount input[type=text]{width:26px;height:16px !important;float:left; border: 1px solid #ccc;text-align:center;border-right:none;}    
+.shoppingOrder_sum{
+    font-weight: bold;
+    font-size: 14px;
+    color: #ff3300;
+     }
+ .del{color:black;}
+ .shoppingOrder_control{padding:10px 20px;border:1px solid #ccc;border-top:none;border-bottom:none;}
+ .shoppingOrder_control a{margin-left:25px;color:#333333;} 
+ #check_all{position: relative;top:2px;}
+  .order_settlement {background:#f6f6f6;height:40px;line-height:40px;padding:10px  0;padding-right:20px;border:1px solid #ccc;border-top:none;}
+ .order_settlement span,.order_settlement strong,.order_settlement a{float:right;margin-left:20px;}
+ .order_settlement a{width:146px;height:40px;border-radius:5px;text-align:center;line-height:40px;background: rgb(194, 182, 180);color:#fff;}
+ .order_settlement .active{background:#E73D1F;}
+.order_settlement strong{font-size:18px;font-weight:bold;}
+ .order_settlement span i{font-style:normal;color:red;}
+ .shoppingOrder_inner a{color:#666666;font-size:12px;}
+ /*********购物车没有商品的时候的提示*************/
+#wrapper-cartNO{width:100%;height:300px;}
+#wrapper-cartNO .default_modu{width:400px;height:100px;margin:0 auto;margin-top:115px;background:url(../images/default_img01.png) no-repeat 0 center;padding-left:145px;}
+#wrapper-cartNO .default_modu p{padding-top:15px;padding-bottom:20px;font-size:17px;color:#666;}
+#wrapper-cartNO .default_modu a{padding:5px 10px;color:#fff;background:#ff9933;border-radius:5px;font-size:12px;margin-right:15px;}
+#wrapper-cartNO .default_modu a:nth-of-type(1){background:#ffcc99;}
+

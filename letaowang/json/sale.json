@@ -1,0 +1,78 @@
+ [
+	{
+		"id": 101,
+		
+		"title":"Reebok锐步 男式 缓震耐磨休闲跑步鞋 BD4529-104",
+		"img": "images/commodity/101.jpg",
+		"imgs" : ["images/commodity/101.jpg","images/commodity/102.jpg","images/commodity/103.jpg","images/commodity/104.jpg","images/commodity/105.jpg"],
+		"unit" :"￥",
+		"oldprice":699,
+		"code":["40","40.5","41","42"],
+		"promotions":"满199.0送优惠券 20元,30元,50元",
+		"describe":"<span>Reebok锐步</span>  <span>低帮休闲板鞋</span>",
+		"price" : 439,
+		"finishDate": "2017-7-10 20:10:10" 
+	},
+	{
+		"id": 102,
+		
+		"title":"李宁LINING 男式 篮球专业比赛鞋 ABAM001-3",
+		"img": "images/commodity/ABAM001-3_00_1.jpg",
+		"imgs" : ["images/commodity/ABAM001-3_00_1.jpg","images/commodity/ABAM001-3_00_2.jpg","images/commodity/ABAM001-3_00_3.jpg","images/commodity/ABAM001-3_00_4.jpg","images/commodity/ABAM001-3_00_5.jpg"],
+		"unit" :"￥",
+		"oldprice":499,
+		"code":["40","40.5","41","42"],
+		"promotions":"满199.0送优惠券 20元,30元,50元",
+		"describe":"<span>李宁LINING</span>  <span>低帮休闲板鞋</span>",
+		"price" : 299,
+		"finishDate": "2017-7-20 20:10:10" 
+	},
+	{
+		  "id": 103,
+		
+		"title":"Reebok锐步 男式 缓震耐磨休闲跑步鞋 BD4529-104",
+		"img": "images/commodity/301.jpg",
+		"imgs" : ["images/commodity/301.jpg","images/commodity/302.jpg","images/commodity/303.jpg","images/commodity/304.jpg","images/commodity/305.jpg"],
+		"unit" :"￥",
+		"oldprice":600,
+		"code":["40","40.5","41","42"],
+		"promotions":"满199.0送优惠券 20元,30元,50元",
+		"describe":"<span>Reebok锐步</span> <span>低帮休闲板鞋</span>",
+		"price" : 320,
+		"finishDate": "2017-7-19 20:10:10"  
+		
+	},
+	{
+	   "id": 104,
+		
+		"title":"Reebok锐步 男式 缓震耐磨休闲跑步鞋 BD4529-104",
+		"img": "images/commodity/BD4529_00_1.jpg",
+		"imgs" : ["images/commodity/BD4529_00_1.jpg","images/commodity/BD4529_00_2.jpg","images/commodity/BD4529_00_3.jpg","images/commodity/BD4529_00_4.jpg","images/commodity/BD4529_00_5.jpg"],
+		"unit" :"￥",
+		"oldprice":600,
+		"code":["40","40.5","41","42"],
+		"promotions":"满199.0送优惠券 20元,30元,50元",
+		"describe":"<span>Reebok锐步</span>  <span>低帮休闲板鞋</span>",
+		"price" : 320,
+		"finishDate": "2017-7-16 20:10:10" 
+		
+	},
+	{
+		 "id": 105,
+		
+		"title":"Puma彪马 中性 舒适透气运动休闲鞋 36239703",
+		"img": "images/commodity/36237103_00_1.jpg",
+		"imgs" : ["images/commodity/36237103_00_1.jpg","images/commodity/36237103_00_2.jpg","images/commodity/36237103_00_3.jpg","images/commodity/36237103_00_4.jpg","images/commodity/36237103_00_5.jpg"],
+		"unit" :"￥",
+		"oldprice":600,
+		"code":["40","40.5","41","42"],
+		"promotions":"满199.0送优惠券 20元,30元,50元",
+		"describe":"<span>Puma彪马</span>  <span>低帮休闲板鞋</span>",
+		"price" : 320,
+		"finishDate": "2017-7-10 20:10:10" 
+	}
+	]
+	
+
+
+

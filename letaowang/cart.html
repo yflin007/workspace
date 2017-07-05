@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>我的购物车</title>
+		<link rel="stylesheet" href="css/reset.css" />
+	     <link rel="stylesheet" href="css/cart.css" />
+	     <link rel="stylesheet" href="css/common.css" />
+	   <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+	   <script type="text/javascript" src="js/jquery-1.12.3.js" ></script>
+	   <script type="text/javascript" src="js/jquery.cookie.js"></script>
+	   <script type="text/javascript" src="js/common.js" ></script>
+	   <script type="text/javascript" src="js/cart.js" ></script>
+	    
+	</head>
+    <body>
+       <!--头部开始-->
+      <div id="wrapper-top">
+        <div class="nav">
+         <p>你好<span></span>，欢迎来到乐淘商城！</p> 	
+         <div class="menu">
+          <a href="login.html">登录</a><span>|</span>
+          <a href="register.html">注册</a><span>|</span>
+          <a href="">我的收藏</a><span>|</span>
+         </div>	
+        	
+        </div>
+        
+ 
+      </div> 
+	   
+	   <div id="wrapper-bottom">
+	  	<div class="logo">  
+	  	 <a href="home.html">乐淘商城</a>
+	  	
+	  	</div>
+	  	
+	  	<div class="search">
+	  	  <input type="text" class="text" placeholder="请输入商品关键字"/>
+	  	  <input type="button" class="button1" value="搜索"/>
+	  	</div>	
+	  	<div class="cart">
+	  		<a href="">我的购物车</a>
+	  	 <span></span>
+	  	 <div class="shopCart_detail">   
+	  	  <p id="p">您的购物车还没有商品，再去逛逛吧~</p>
+	  	 </div>
+	  	 <div  class="cs_list">
+	  	 <ul id="ul" >
+	  	  	<li>  
+	  	  	 <a href=""> 
+	  	  	 <img src="images/commodity/103.jpg" /> 
+	  	  	 <h3>New Balance新百伦 中性 复古休闲跑步运动鞋ML878RMC</h3></br>
+	  	  	 <strong>42</strong>
+	  	  	 </a>
+	  	  	 <p>￥549.00Χ18</p>
+	  	  	</li>
+	  	  </ul>
+	  	  <div class="cl_list-bottom">  
+	  	  <p><strong>共计：<i id="total">￥15656.00</i></strong><strong>共<i id="count">0</i>件商品</strong></p>
+	  	  <a href="cart.html">去购物车结算</a>
+	  	  </div>
+	  	  </div>
+	  	</div>
+	  </div>	
+	   
+	 <div id="wrapper-nav"> 
+	   <div class="nav">
+	   	 <div class="categorys">   
+	   	    商品分类
+	   	  <div class="all-sort-list">  
+	   	   <div class="item">  
+	   	    <h2><i class="iconfont">&#xe632;</i><a href="">运动鞋</a> <span>></span></h2>
+	   	   
+	   	      <div class=" twoList">   
+	   	      <a href="">品牌</a> <a>款式</a>
+	   	    
+	   	    </div>
+	   	  
+	   	    <div class="itemlist">  
+	   	      <div class="title"><a href="">运动鞋<i>&gt;</i></a>    </div> 
+	   	       <div class="content">   
+	   	        <dl><dt><a href="">品牌</a><span>></span></dt> <dd>  <a href=""> 耐克 阿迪达斯 </a>  <a href="">三叶草 </a>  <a href=""> 匡威   </a><a href=""> 万斯 </a><a href=""> 锐步</a><a href="">彪马  </a><a href=""> D&J </a>
+	   	        	   <a href="">亚瑟士 </a> <a href="">  鬼冢虎</a><a href="">   斯凯奇 </a> <a href=""> </a><a href=""> 圣康尼 </a><a href="">卡帕 </a>
+	   	        	   <a href="">  新百伦</a> <a href="">  李宁LINING </a> <a href="">361° </a> <a href="">劲越CBA  </a>
+	   	        	   <a href=""> 啸行安</a>   <a href="">  乐斯菲斯 </a>  <a href="">     哥伦比亚 </a>  <a href="">  探路者 </a>  
+	   	        	                         </dd>  </dl>
+	   	        <dl><dt><a href="">款式</a><span>></span></dt> <dd> 
+	   	
+	   	    <a href="">板鞋</a>
+	   	    <a href="">跑步鞋</a> 
+	   	    <a href="">篮球鞋</a> 
+	   	    <a href="">帆布鞋</a> 
+	   	    <a href="">硫化鞋</a> 
+	   	    <a href="">训练鞋</a>
+	   	    <a href=""> 网球鞋</a>
+	   	    <a href=""> 足球鞋</a>
+	   	    <a href="">  徒步鞋</a> 
+	   	    <a href="">登山鞋</a>
+	   	    <a href="">溯溪鞋</a>
+	   	    <a href="">越野鞋</a>
+	   	        </dd>  </dl>
+	   	       
+	   	       </div>
+	   	    
+	   	   
+	   	   </div>
+	   	   </div>
+	   	  
+	   	  
+	   	  
+	   	  <div class="item">  
+	   	    <h2><i class="iconfont">&#xe60b;</i><a href="">女鞋</a> <span>></span></h2>
+	   	    
+	   	      <div class=" twoList">   
+	   	      <a href="">品牌</a> <a>款式</a>
+	   	    
+	   	     </div>
+	   	    
+	   	      <div class="itemlist">  
+	   	      <div class="title"><a href="">女鞋<i>&gt;</i></a>    </div> 
+	   	       <div class="content">   
+	   	        <dl><dt><a href="">品牌</a><span>></span></dt> <dd>  <a href=""> 耐克 阿迪达斯 </a>  <a href="">三叶草 </a>  <a href=""> 匡威   </a><a href=""> 万斯 </a><a href=""> 锐步</a><a href="">彪马  </a><a href=""> D&J </a>
+	   	        	   <a href="">亚瑟士 </a> <a href="">  鬼冢虎</a><a href="">   斯凯奇 </a> <a href=""> </a><a href=""> 圣康尼 </a><a href="">卡帕 </a>
+	   	        	   <a href="">  新百伦</a> <a href="">  李宁LINING </a> <a href="">361° </a> <a href="">劲越CBA  </a>
+	   	        	   <a href=""> 啸行安</a>   <a href="">  乐斯菲斯 </a>  <a href="">     哥伦比亚 </a>  <a href="">  探路者 </a>  
+	   	        	                         </dd>  </dl>
+	   	        <dl><dt><a href="">款式</a><span>></span></dt> <dd> 
+	   	
+	   	    <a href="">板鞋</a>
+	   	    <a href="">跑步鞋</a> 
+	   	    <a href="">篮球鞋</a> 
+	   	    <a href="">帆布鞋</a> 
+	   	    <a href="">硫化鞋</a> 
+	   	    <a href="">训练鞋</a>
+	   	    <a href=""> 网球鞋</a>
+	   	    <a href=""> 足球鞋</a>
+	   	    <a href="">  徒步鞋</a> 
+	   	    <a href="">登山鞋</a>
+	   	    <a href="">溯溪鞋</a>
+	   	    <a href="">越野鞋</a>
+	   	        </dd>  </dl>
+	   	       
+	   	       </div>
+	   	    
+	   	   
+	   	   </div>
+	   	  </div>
+	   	  <div class="item"> 
+	   	   <h2><i class="iconfont">&#xe637;</i><a href="">男鞋</a> <span>></span></h2>
+	   	   <div class=" twoList">   
+	   	      <a href="">品牌</a> <a>款式</a>
+	   	    
+	   	   </div>
+	   	   
+	   	     <div class="itemlist">  
+	   	      <div class="title"><a href="">男鞋<i>&gt;</i></a>    </div> 
+	   	       <div class="content">   
+	   	        <dl><dt><a href="">品牌</a><span>></span></dt> <dd>  <a href=""> 耐克 阿迪达斯 </a>  <a href="">三叶草 </a>  <a href=""> 匡威   </a><a href=""> 万斯 </a><a href=""> 锐步</a><a href="">彪马  </a><a href=""> D&J </a>
+	   	        	   <a href="">亚瑟士 </a> <a href="">  鬼冢虎</a><a href="">   斯凯奇 </a> <a href=""> </a><a href=""> 圣康尼 </a><a href="">卡帕 </a>
+	   	        	   <a href="">  新百伦</a> <a href="">  李宁LINING </a> <a href="">361° </a> <a href="">劲越CBA  </a>
+	   	        	   <a href=""> 啸行安</a>   <a href="">  乐斯菲斯 </a>  <a href="">     哥伦比亚 </a>  <a href="">  探路者 </a>  
+	   	        	                         </dd>  </dl>
+	   	        <dl><dt><a href="">款式</a><span>></span></dt> <dd> 
+	   	
+	   	    <a href="">板鞋</a>
+	   	    <a href="">跑步鞋</a> 
+	   	    <a href="">篮球鞋</a> 
+	   	    <a href="">帆布鞋</a> 
+	   	    <a href="">硫化鞋</a> 
+	   	    <a href="">训练鞋</a>
+	   	    <a href=""> 网球鞋</a>
+	   	    <a href=""> 足球鞋</a>
+	   	    <a href="">  徒步鞋</a> 
+	   	    <a href="">登山鞋</a>
+	   	    <a href="">溯溪鞋</a>
+	   	    <a href="">越野鞋</a>
+	   	        </dd>  </dl>
+	   	       
+	   	       </div>
+	   	    
+	   	   
+	   	   </div>
+	   	  </div>
+	   	   
+	   	   
+	   	   
+	   	   
+	   	  
+	   	  
+	   	  </div>
+	   	 </div>
+	   	  <div class="nav_list">  
+	   	   <ul>
+	   	   <li><a href="home.html">首页</a><span>	|</span></li>
+	   	   <li><a href="home.html">运动休闲鞋</a><span>	|</span></li>
+	   	   <li><a href="home.html">帆布鞋</a><span>|</span></li>
+	   	   <li><a href="home.html">户外鞋</a><span>|</span></li>
+	   	   <li><a href="home.html">男鞋</a><span>	|</span></li>
+	   	   <li><a href="home.html">女鞋</a></li>
+	   	    
+	   	    
+	   	    
+	   	   	
+	   	   </ul>
+	   	  </div> 
+	   </div>
+	  </div>
+	 <!---购物车---->
+	 <div style="display:none;" id="wrapper-cart"> 
+	  <ul>
+	   <li class="status">
+	   	<span class="status">1</span>
+   	    <strong class="status1">购物车</strong>
+	   </li>
+	   <li >
+	   	<span >2</span>
+	   	 <strong>填写核对订单信息</strong>  
+	   </li>
+	   <li >
+	   	<span >3</span>
+	    <strong>成功提交并支付订单</strong>
+	   </li>
+	  </ul>	
+	  <p class="p1">我的购物车</p>
+	  <div class="shoppingOrder_name"><table><tr>
+				<td width="440">
+					<div class="shoppingOrder_all">
+					</div>
+					&nbsp;&nbsp;&nbsp;商品信息
+				</td>
+				<td width="150">单价（元）</td>
+				<td width="130">数量</td>
+				<td width="130">小计</td>
+				<td width="90">操作</td>
+			</tr></table></div>
+	  <div class="shoppingOrder">
+	  	<table>
+					<tr>
+					<td width="440">				
+						<div class="shoppingOrder_chk" id="chk">   
+							<input type="checkbox" class="checkboxClass"  ><label for="selectItem_1"></label> 
+						</div>
+						<div class="shoppingOrder_img">
+							<a  href="detail.html">
+								<img src="images/commodity/BD4529_00_1.jpg">
+							</a>
+						</div>
+						<div class="shoppingOrder_about">
+							<div class="shoppingOrder_inner"><a href="detail.html" target="_blank">Reebok锐步 男式 缓震耐磨休闲跑步鞋 BD4529</a>
+							</div>
+							<div class="shoppingOrder_info">
+								<span>尺寸：40</span>
+								<span style="display: none;">颜色：</span>
+								<span style="display: none;">型号：</span>
+								<span style="display: none;">口味：</span>
+								<span style="display: none;">课程：</span>
+								<span style="display: none;">规格：</span>
+								<span style="display: none;">工艺：</span>
+								<span style="display: none;">纸质：</span>
+							</div>
+						</div>
+					</td>
+					<td width="150">
+						  <div class="shoppingOrder_price">¥469.0</div>
+					</td>
+					<td width="130">
+						<div class="tcount">
+						  <input type="button" value="-" />
+						  <input type="text" value="1"  readonly="readonly"/>
+						  <input type="button" value="+"/>
+							
+						</div>
+					</td>
+					<td width="130">
+						<div class="shoppingOrder_sum">￥469.00</div>
+					</td>
+					<td width="90">
+						<a href="javascript:void(0)" class="del">删除</a>
+					</td>
+				</tr>
+	  </table>
+	    
+	   </div>
+	    <p class="shoppingOrder_control"><input type="checkbox"  class="selectAll"/><label  for=".selectAll"  >全选</label>
+	     <a href="javascript:;" id="delSelect">删除选中商品</a>
+	     <a href="javascript:;" id="clearAll">清空购物车</a> 
+	     </p>
+	     
+	     <div class="order_settlement">   
+	       <a href="javascript:;">去结算</a>
+	      <strong>商品应付金额:￥0.00</strong>
+	      <span>已选商品<i>0</i>件</span>
+	     
+	     </div>
+	 </div>
+	 
+	 
+	 <div id="wrapper-cartNO">
+	 
+	 <div class="default_modu">
+	 	<p>您还没有相关的订单信息</p>
+	 	<a href="javascript:;">查看全部订单</a>   <a href="home.html">去首页看看</a> 
+ 	 </div>	
+	   
+	 	
+	 	
+	 </div>	
+	 
+	 <!----------->
+	   <div id="wrapper-footer">   
+	   
+	   <div class="footer">  
+	     <ul class="list">  
+	      <li>  
+	       <p>新手帮助</p>
+	         <ul class="list2"> 
+	          <li><a href=""> 玩转乐淘</a>  </li>
+	          <li><a href=""> 常见问题</a>  </li>
+	          <li><a href=""> 优惠指南</a>  </li>
+	         </ul>	
+	     </li>		
+	       <li>  
+	       	<p>购物指南</p>
+	       	<ul class="list2"> 
+	       	 <li><a href="">尺码选择</a></li>
+	       	 <li><a href=""> 配送运费</a> </li>
+	       	 <li><a href="">签收/验货 </a> </li>
+	       	</ul>
+	       	
+	     </li>	
+	       <li>  
+	       <p>支付/配送</p>
+	        <ul class="list2">
+	        <li><a href="">在线支付</a></li>
+	       	 <li><a href="">物流查询</a> </li>
+	       	 <li><a href="">发货时间</a> </li>	
+	        </ul>	
+	       	 
+	       <li>  
+	       <p>售后服务</p>	
+	       <ul class="list2">
+	       	<li><a href="">退换货办理</a></li>
+	       	 <li><a href="">退换货政策</a> </li>
+	       	 <li><a href="">退款说明</a></li>	
+	       </ul>
+	       	
+	      
+	     </li>	
+	       <li>  
+	       <p>联系乐淘</p>
+	        <ul class="list2">
+	        <li><a href="">400-0022-188</a></li>
+	       	 <li><a href="">其他联系方式</a> </li>
+	       	 <li><a href="">品牌招商</a></li>		
+	        </ul>	
+	       
+	       	
+	    
+	     </li>	
+	       <li>  
+	      <p>APP下载</p>
+	      
+	      <ul class="list2"> 
+	      	<li><a href="">安卓</a>  </li>
+	      </ul>	
+	    
+	     </li>	
+	     </ul>	
+	     
+	        <div class="footer-r">
+	      	<p> 
+	      	扫码关注我们
+	      </p>
+	        <div class="er">
+	        </div>	
+	      </div>	
+	   </div>
+	   
+	   
+	  
+	   	
+	   </div>
+	
+	   
+	    <div class="foot">
+ 		<p style="margin-bottom: 5px; text-align: center;"><span style="color: rgb(102, 102, 102); font-family: 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif, sans-serif; font-size: 14px; text-align: center; background-color: rgb(255, 255, 255);">Copyright © 2008 - 2017 Letao Inc. 乐淘网&nbsp;&nbsp;版权所有&nbsp;&nbsp;&nbsp;&nbsp;买鞋子&nbsp;&nbsp;上乐淘&nbsp;&nbsp;&nbsp;&nbsp;</span><a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow" style="text-decoration: none; color: rgb(209, 0, 66); outline: none; font-family: 'Open Sans', Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 微软雅黑, STHeiti, 'WenQuanYi Micro Hei', SimSun, sans-serif, sans-serif; font-size: 14px; text-align: center; white-space: normal; background-color: rgb(255, 255, 255);">粤ICP备14019125号</a></p><p><br></p>
+        </div>
+	   
+	
+	   
+	   
+	</body>
+</html>
